@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link rel="stylesheet" href="pomodoro.css"-->
+    <style>
+        .btn:disabled {
+            color: gray;
+        }
+    </style>    
+    <title>Pomodoro counter</title>
+</head>
+<body>
+    <main>
+    <div id="container">
+        <span id="work" class="label">Work:</span>
+        <div id="work-timer" class="timer">
+            <span id="work_minutes">1</span>:
+            <span id="work_seconds">00</span>
+            <button id="work_increase">+</button>
+            <button id="work_decrease">-</button>
+        </div>
+
+
+        <span id="break" class="label">Break:</span>
+        <div id="break-timer" class="timer">
+            <span id="break_minutes">01</span>:
+            <span id="break_seconds">00</span>
+            <button id="break_increase">+</button>
+            <button id="break_decrease">-</button>
+        </div>
+
+        <button id="start" class="btn">Start</button>
+        <button id="pause" class="btn">Pause</button>
+        <button id="reset" class="btn">Reset</button>
+    </div>
+    </main> 
+    <script defer src="pomodoro.js"></script> 
+</body>
+</html>

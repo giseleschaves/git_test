@@ -1,0 +1,9 @@
+#list {
+  align-items: inline;
+}
+.check-item {
+  height: 16px;
+  width: 16px;
+  border: 1px solid #dcdcdc;
+  border-radius: 50%;
+}

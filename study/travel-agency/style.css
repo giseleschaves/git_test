@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.7rem;
+}
+
+/* Navigation bar */
+#navbar {
+  background-color: #fff;
+  height: 70px;
+  align-items: flex-start;
+  padding: 10px;
+  position: fixed;
+  width: 100vw;
+}
+
+#navbar #menu {
+  float: right;
+  margin-right: 15px;
+}
+
+#navbar .logo {
+  float: left;
+  margin-left: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Showcase */
+#showcase-content {
+  background: url("/img/showcase.jpg") no-repeat;
+  color: #fff;
+}

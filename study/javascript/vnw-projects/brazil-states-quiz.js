@@ -1,0 +1,15 @@
+const capitalsList = [['Acre', 'Rio Branco'], ['Amapa', 'Macapa'], 
+                      ['Amazonas', 'Manaus'], ['Para', 'Belem'],
+                      ['Rondonia', 'Porto Velho'], ['Roraima', 'Boa Vista'],
+                      ['Tocantins', 'Palmas'], ['Alagoas', 'Maceio'],
+                      ['Bahia', 'Salvador'], ['Ceara', 'Fortaleza'],
+                      ['Maranhao', 'Sao Luiz'], ['Paraiba', 'Joao Pessoa'],
+                      ['Pernambuco', 'Recife'], ['Piaui', 'Teresina'],
+                      ['Rio Grande do Norte', 'Natal'], ['Sergipe', 'Aracaju'],
+                      ['Distrito Federal', 'Brasilia'], ['Goiais', 'Goiania'],
+                      ['Mato Grosso', 'Cuiaba'], ['Mato Grosso do Sul', 'Campo Grande'],
+                      ['Espirito Santo', 'Vitoria'], ['Minas Gerais', 'Belo Horizonte'],
+                      ['Rio de Janeiro', 'Rio de Janeiro'], ['Sao Paulo', 'Sao Paulo'],
+                      ['Parana', 'Curitiba'], ['Santa Catarina', 'Florianopolis'],
+                      ['Rio Grande do Sul', 'Porto Alegre']  
+                    ];
